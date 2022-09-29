@@ -1,0 +1,10 @@
+name: markdownlint
+description: Lint Markdown files
+inputs:
+  files:
+    description: 'Files to lint'
+    required: true
+    default: '**/*.md'
+runs:
+  using: 'node16'
+  main: 'index.js'
